@@ -1,12 +1,13 @@
 console.log("Javascript Full Operator Guide + Exercises")
 
-let a=9;
+let a=9;    
 let b=7;
+console.log("Arithmatic Operator:")
 console.log("Value of A:"+a+" Value of B:"+b)
 console.log("Addition:",a+b);
 console.log("Subtraction:",a-b);
 console.log("Multiplication:",a*b);
-console.log("Division:",a/b);
+console.log("Division:",a/b);   
 console.log("Remainder:",a%b);
 console.log("Exponent:",a**b);
 

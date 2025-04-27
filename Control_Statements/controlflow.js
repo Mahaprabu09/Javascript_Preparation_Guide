@@ -52,3 +52,17 @@ switch (new Date().getDay()) {
     day = "Saturday";
 }
 console.log(day)
+
+
+let color="red";
+
+switch(color){
+  case "red":
+    console.log("color is red");
+    break;
+  case "blue":
+    console.log("color is blue");
+    break;
+  default:
+    console.log("Unknown Color");
+}
