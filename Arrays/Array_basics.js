@@ -45,3 +45,22 @@ let merged = arrayTest1 + arrayTest2;
 console.log("Merged :"+merged);
 let merged1 = arrayTest1.concat(arrayTest2);
 console.log("Merged1 Sample :"+merged1);
+
+console.log("indexOf(): Find the first index of a value")
+let testarray1 = [33,44,21,12,32,11,9];
+console.log(testarray1.indexOf(12));
+
+console.log("includes(): Check if array contains value");
+console.log(testarray1.includes(32));
+console.log("checking includes again :",testarray1.includes(9));
+
+console.log(" join(): Convert array to string")
+
+let testarray2 = [33,44,21,12,32,11,9];
+console.log(testarray2.join());
+console.log(testarray2.join("-"));
+
+console.log("reverse(): Reverse the array in place");
+let testarray3 = [33,44,21,12,32,11,9,2,1,3,4,56,67];
+testarray3.reverse();
+console.log(testarray3);
