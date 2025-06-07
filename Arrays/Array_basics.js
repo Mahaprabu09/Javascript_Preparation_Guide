@@ -84,3 +84,41 @@ console.log(nums); // Output: [1, 2, 3, 4]
 const nums1 =[ 15,11,12,16,17,18,9];
 nums1.sort((s1, s2) => s1 - s2);
 console.log(nums1);
+
+//Fill methods
+console.log("fill method");
+let testn1=[6,7,8,9,10];
+testn1.fill(0,1,4)
+console.log("fill no 1,4 :"+testn1);
+
+testn1.fill(22,2,4);
+console.log("fill no "+testn1);
+
+console.log("finding index");
+
+let indexValues =[2,4,5,7,9,10,11];
+
+const index = indexValues.findIndex((item) =>{
+    return item === 4;
+});
+console.log(index);
+
+console.log("string Value index:")
+let strVals=["sports", "working", "reading","listening","watching"];
+const strMain=strVals.findIndex((strItem)  =>{
+    return strItem === "reading";
+});
+console.log(strMain);
+
+console.log("string Value index1:")
+const strMain1=strVals.findIndex((strItem1) =>{
+    return strItem1 === "watching";
+});
+console.log(strMain1);
+
+console.log("using Map method to add words , or make it as a object key:")
+const strMap1 = strVals.map((strMapvalues) =>({Val: strMapvalues}));
+console.log(strMap1);
+
+const numList = indexValues.map((numMaplist) => ({Numbers: numMaplist}));
+console.log(numList);
