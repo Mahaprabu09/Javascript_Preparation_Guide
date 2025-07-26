@@ -23,3 +23,13 @@ function testOlogn(n1){
 }
 
 console.log(testOlogn());
+
+
+
+console.log("Add sum function execution:");
+
+function Addsum(arr_sum){
+    for(let i=0;i<arr_sum.length;i++){
+        total+=
+    }
+}
