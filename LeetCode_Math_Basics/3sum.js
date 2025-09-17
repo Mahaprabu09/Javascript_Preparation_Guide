@@ -2,7 +2,7 @@
  let thtarget= 0
  let thparevalues = []
  let thindex =[]
- 5
+ 
 for(let i=0; i < thnums.length ; i++){
     for(let j =i+1; j < thnums.length; j++ ){
         for(let k =j+1; k < thnums.length; k++){
@@ -15,4 +15,4 @@ for(let i=0; i < thnums.length ; i++){
 }
 console.log("three sum index",thindex)
 console.log("three sum value",thparevalues)
-out = [[-1,-1,2],[-1,0,1]]  
+
